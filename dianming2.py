@@ -1,8 +1,6 @@
 f=open('C:/Users/user/Desktop/Walden.txt','r',encoding='utf-8')
 line = f.read()
-#将文本拆分为word
 words = line.split()
-#print(words)
 new_words = []
 for word in words:
     new_words.append(word.replace(',','').replace('.','').replace(':','').replace(';','').lower())
