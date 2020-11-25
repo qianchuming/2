@@ -6,7 +6,6 @@ for line in lines:
     xuehao = tmp1[0]
     xingming = tmp1[1]
     students[xuehao] = xingming
-    #students[line.split(',')[0]] = line.split(',')[1]
 f.close()
 import random
 num = eval(input(''))
